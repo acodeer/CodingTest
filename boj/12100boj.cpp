@@ -78,6 +78,7 @@ vector<vector<int>> move_d(vector<vector<int>> map) {
     }
     return map;
 }
+
 void solve(vector<vector<int>> map, int depth) {
     if (depth == 5) {
         for (int i = 0; i < n; i++) {
